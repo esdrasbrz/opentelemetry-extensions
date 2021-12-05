@@ -1,2 +1,2 @@
 processors:
-- gomod: "github.com/esdrasbrz/opentelemetry-extensions/processor/tracebatchprocessor v0.2.1"
+- gomod: "github.com/esdrasbrz/opentelemetry-extensions/processor/tracebatchprocessor v0.3.0"

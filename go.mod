@@ -3,7 +3,7 @@ module github.com/esdrasbrz/opentelemetry-extensions
 go 1.17
 
 require (
-	github.com/esdrasbrz/opentelemetry-extensions/processor/tracebatchprocessor v0.2.1 // indirect
+	github.com/esdrasbrz/opentelemetry-extensions/processor/tracebatchprocessor v0.3.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/knadh/koanf v1.3.3 // indirect
