@@ -1,0 +1,18 @@
+receivers:
+  nop:
+
+processors:
+  tracebatch:
+
+exporters:
+  nop:
+
+service:
+  pipelines:
+    traces:
+      receivers:
+      - nop
+      processors:
+      - tracebatch
+      exporters:
+      - nop 
