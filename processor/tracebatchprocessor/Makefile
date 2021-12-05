@@ -1,5 +1,5 @@
-run_cmd:
-	go run ./cmd ./cmd/example.yaml
+run:
+	go run ./cmd/ cmd/example.yaml
 
 test:
-	go test ./
+	go test ./...

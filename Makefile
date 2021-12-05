@@ -3,3 +3,6 @@ build: get_builder
 
 get_builder:
 	GO111MODULE=on GOBIN=/usr/local/bin go install go.opentelemetry.io/collector/cmd/builder@latest
+
+test:
+	go test ./...
